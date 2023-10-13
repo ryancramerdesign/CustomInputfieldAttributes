@@ -97,8 +97,8 @@ $cia = $modules->get('CustomInputfieldAttributes');
 // add a class to <input> element for Inputfield named "title"
 $cia->addAttribute('title', 'class', 'uk-form-large'); 
 
-// add a class to wrapping .Inputfield element for "headline"
-$cia->addAttribute('title', 'class', 'InputfieldIsPrimary'); 
+// add a class to wrapping (^) .Inputfield element for "headline"
+$cia->addAttribute('title', '^class', 'InputfieldIsPrimary'); 
 
 // add an onchange event attribute to "headline"
 $cia->addAttribute('headline', 'onchange', 'alert("Headline changed")');
